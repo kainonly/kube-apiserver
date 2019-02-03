@@ -15,4 +15,3 @@ docker tag kainonly/kube-apiserver:v1.13.3 k8s.gcr.io/kube-apiserver:v1.13.3
 // or
 docker tag ccr.ccs.tencentyun.com/kainonly/kube-apiserver:v1.13.3 k8s.gcr.io/kube-apiserver:v1.13.3
 ```
-
