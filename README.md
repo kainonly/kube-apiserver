@@ -1,19 +1,24 @@
 # kube-apiserver
 
-拉取 kube-apiserver:v1.13.3 镜像
+历史版本
+
+- v1.15.3
+- v1.13.3
+
+拉取 kube-apiserver:tag 镜像
 
 ```shell
-docker pull kainonly/kube-apiserver:v1.13.3
+docker pull kainonly/kube-apiserver:tag
 ```
 
 重命名镜像
 
 ```shell
-docker tag kainonly/kube-apiserver:v1.13.3 k8s.gcr.io/kube-apiserver:v1.13.3
+docker tag kainonly/kube-apiserver:tag k8s.gcr.io/kube-apiserver:tag
 ```
 
 删除镜像
 
 ```shell
-docker rmi kainonly/kube-apiserver:v1.13.3
+docker rmi kainonly/kube-apiserver:tag
 ```
